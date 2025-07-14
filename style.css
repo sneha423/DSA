@@ -1,0 +1,52 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+
+}
+#content{
+    height: 600px;
+}
+.signin{
+    background-color: rgba(255, 0,0,0.5);
+}
+.video{
+    background-color: rgba(0, 255,0,0.5);
+}
+.item{
+    background-color: rgba(0, 0,255,0.5);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav{
+    height: 60px;
+    padding-top: 10px;
+   background-color: black;
+   color: white;
+   border: 5px solid white;
+}
+button{
+    background-color: yellow;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    margin-right: 200px;
+}
+#logo{
+     color:orange ;
+}
+input{
+    background-color:white;
+}

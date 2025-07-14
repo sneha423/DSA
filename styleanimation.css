@@ -1,0 +1,21 @@
+div{
+    border: 5px solid aquamarine;
+    border-top: 5px solid black;
+    
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    animation: loading 3s linear 0s infinite normal;
+}
+
+@keyframes loading{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
